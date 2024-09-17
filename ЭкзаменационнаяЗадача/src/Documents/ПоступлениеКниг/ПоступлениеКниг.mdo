@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50a141ab-10c2-4112-8fcd-7f3c4d2dd8fc">
+  <producedTypes>
+    <objectType typeId="d58fad75-3a4e-456b-8634-5abdb4fd8fcf" valueTypeId="e43fdb6c-2daa-4d32-9691-c03c8d663283"/>
+    <refType typeId="a74408e7-aded-4856-9b91-157fa5ca62e0" valueTypeId="8c06c24f-2305-48ba-88a8-9004fdcf0c9b"/>
+    <selectionType typeId="e35c45bb-90ca-4ce6-ae92-d78fb7a23925" valueTypeId="8d5ef7e5-fcaa-46b3-91ed-6971ef0dca38"/>
+    <listType typeId="9ffabc54-9544-497d-9f22-39114ff968ce" valueTypeId="36c536ba-ef13-446b-9e52-9171f616caaf"/>
+    <managerType typeId="6637ab53-1b46-4aa0-a59d-ffcadfe8a1ed" valueTypeId="1e6c458c-bb7c-48b5-8565-79cf77ab6a32"/>
+  </producedTypes>
+  <name>ПоступлениеКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление книг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеКниг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f3059b8e-3c16-4345-95e9-92c310789abc">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

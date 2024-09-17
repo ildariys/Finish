@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24c8e7c7-dc25-407c-aa43-77d6b813c761">
+  <producedTypes>
+    <objectType typeId="f4c2664d-9eb0-461b-9e46-8550d4b16282" valueTypeId="e2d175c3-978f-4015-8753-7536a1730dfb"/>
+    <refType typeId="a254461a-c2a6-425d-8cb4-bdeafb0e095e" valueTypeId="4d693ebc-20dd-4d97-b3df-a00d3b5ab960"/>
+    <selectionType typeId="b3357316-0fcb-4741-9fb1-b0a8450aedb9" valueTypeId="1d9c9b29-fdea-4dc0-af75-3e92e209015f"/>
+    <listType typeId="89a4358d-019a-4616-ae0e-de796bb12cad" valueTypeId="b14ccd5a-b783-463a-bc00-b2736a648be7"/>
+    <managerType typeId="0be85dce-d76e-4b25-a77b-9c1dafa182f8" valueTypeId="efbc4e5e-78f0-485a-b7ac-49fe7ba9d321"/>
+  </producedTypes>
+  <name>Магазины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Магазины.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Магазины.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
