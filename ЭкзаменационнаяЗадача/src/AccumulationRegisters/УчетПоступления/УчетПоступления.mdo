@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ca668cc-4469-4857-8e14-40f058357a15">
+  <producedTypes>
+    <selectionType typeId="fba40f6b-c9f9-4114-be00-30978ae06838" valueTypeId="4d262a47-1711-4f58-ae30-98a086a005a9"/>
+    <listType typeId="b68e8627-6c2f-4523-993f-ba08e267c33e" valueTypeId="fdb56c62-82be-4150-b2b0-b7e3ca17c8df"/>
+    <managerType typeId="2bba3b6c-ede9-499a-b465-d5bd45504114" valueTypeId="dbc9fb01-b4eb-42c7-a8d5-dafb210a0eb0"/>
+    <recordSetType typeId="8c43a7f8-d738-4e24-ab4d-c18292f73ae0" valueTypeId="3424ae30-f0c0-4931-a5c5-2f99e5ed286e"/>
+    <recordKeyType typeId="967d8964-d007-4b01-954f-4ccc317ccfe7" valueTypeId="69e07802-cdeb-492b-9cc2-61f090a9780a"/>
+    <recordType typeId="9e6db958-53f9-40ab-b936-4d7849de7010" valueTypeId="ba6c5f55-95cd-4550-8d1f-6af165c1703a"/>
+  </producedTypes>
+  <name>УчетПоступления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет поступления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8f5d5133-f7ee-4d91-9584-f9ab553cbc02">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b2e54fc6-714b-4424-b259-d2e82d2d2537">
+    <name>Книга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Книги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="96304537-52f6-44e5-a9ef-2636fb05c3ca">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

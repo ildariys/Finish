@@ -134,7 +134,7 @@
       <value>Описание</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>ValueStorage</types>
     </type>
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -152,15 +152,13 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>17</length>
       </stringQualifiers>
     </type>
     <mask>999-9-999-99999-9</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -213,11 +211,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="056107f9-45f8-4e83-9fe2-9987591be93f">
-    <name>Текст</name>
+  <attributes uuid="93be5c8a-7e0e-4af2-9197-e1dd89e3aaf4">
+    <name>Картинка</name>
     <synonym>
       <key>ru</key>
-      <value>Текст</value>
+      <value>Картинка</value>
     </synonym>
     <type>
       <types>ValueStorage</types>

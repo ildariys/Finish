@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0db4f8d5-2427-4025-bda3-acdf9eab1e8b">
+  <producedTypes>
+    <selectionType typeId="e9bfe7ef-a54d-4bf6-a0b2-24953c80bdae" valueTypeId="a2c26a86-81a7-43f2-a832-d3f1c37c4c94"/>
+    <listType typeId="269ad39f-84ec-48e5-b0f8-07c66c722bc1" valueTypeId="98a49e07-91f3-4698-a84a-316e69654566"/>
+    <managerType typeId="4b88a751-b9b3-4968-9f41-adc168d89015" valueTypeId="3fc853c7-0118-4cf1-9fc7-2f7ab382ed74"/>
+    <recordSetType typeId="834eb1b8-384f-440f-a8d9-a1560346912b" valueTypeId="c1fe158a-8478-4239-a586-5a8db449e990"/>
+    <recordKeyType typeId="a21d1f6c-0062-492c-ba02-fba4c1490f02" valueTypeId="1c7e2933-98b1-4131-81fa-92e1b0c0d937"/>
+    <recordType typeId="15f05bcd-186f-4041-b0d6-51dc7fbaeb36" valueTypeId="5ff30c6a-02d0-4a43-afaf-af83e99ac47e"/>
+  </producedTypes>
+  <name>НаличиеКнигНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличие книг на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="87258c8a-6a32-42ee-8d50-455451849a63">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="62b61711-e812-462f-b0c0-2a4e33520578">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fc2361d5-ff6b-4da2-9b76-7f850fe5ec5c">
+    <name>Книга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Книги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

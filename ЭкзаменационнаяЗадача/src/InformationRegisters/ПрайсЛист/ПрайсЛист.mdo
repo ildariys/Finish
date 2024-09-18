@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e55e9a48-bf4e-4a24-b754-10db5f90f7ef">
+  <producedTypes>
+    <selectionType typeId="006ae74b-9dbf-4c00-863f-9c231cdcd28f" valueTypeId="0790c168-2d50-482d-b695-1cb778841271"/>
+    <listType typeId="7bd91c85-d053-47ab-aae8-187bef798570" valueTypeId="da374548-1cac-484c-bd49-f2a7b295cf0a"/>
+    <managerType typeId="9ec25b4e-f259-4854-85dc-96b6590145c3" valueTypeId="1fe30fb1-2d3a-4ded-bd9a-d00be931b422"/>
+    <recordSetType typeId="ce313a90-6bb6-40ad-b748-987d36eb91ca" valueTypeId="e1838aa5-4ca0-4192-865d-0e6fe79a303c"/>
+    <recordKeyType typeId="92584eac-1b5e-428d-a747-a197a7829ebf" valueTypeId="d83ef4eb-5a3d-4c2c-a1b7-e56fbbcde6a4"/>
+    <recordType typeId="f06fdb1b-55c9-4da7-8376-7997e1d36349" valueTypeId="108532a4-4c45-44e8-839d-07911f555bad"/>
+    <recordManagerType typeId="d43687d9-f3a9-4ac8-b9c6-bf2ce3ec4ad1" valueTypeId="602f1aa3-e430-432b-9ab1-297759900910"/>
+  </producedTypes>
+  <name>ПрайсЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4ac214d7-e14c-4d2e-8a93-8c1b7a0fb5a2">
+    <name>ЗакупочнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупочная цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0f930578-d569-45c3-a9b5-75763d130ddb">
+    <name>РозничнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розничная цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="63bcc42d-1ce4-4c89-8d4f-357c689fbf16">
+    <name>Книга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Книги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

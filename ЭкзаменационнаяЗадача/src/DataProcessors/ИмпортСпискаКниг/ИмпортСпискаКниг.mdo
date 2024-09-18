@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05f90ea2-4090-4519-bf47-1896bc90ad36">
+  <producedTypes>
+    <objectType typeId="e385f6b1-e60f-41af-8f6c-b6364fe42799" valueTypeId="e685c2b0-8d6a-435f-a7fc-da90812bc7bf"/>
+    <managerType typeId="4cf8134e-b3a9-498f-9929-982554455267" valueTypeId="a23e8c4a-8007-4604-bee8-efb2d27c41c8"/>
+  </producedTypes>
+  <name>ИмпортСпискаКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импорт списка книг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИмпортСпискаКниг.Form.Форма</defaultForm>
+  <attributes uuid="970b0d48-eff8-442f-8885-43fb3fca0616">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="78780673-3188-4a5e-929c-bbe6bcac8ef2">
+    <name>ФорматФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="791128dc-acd5-48c2-be9d-72efdef15274">
+    <producedTypes>
+      <objectType typeId="c32c88f6-c08b-4827-a9f1-b157b968391a" valueTypeId="2a47cb9f-c3b5-4fed-8043-520f4952723a"/>
+      <rowType typeId="83bfc9d5-e5be-4ce0-83a7-4afef79f1467" valueTypeId="acd40b60-dfac-4893-9bcd-a910a95d21fc"/>
+    </producedTypes>
+    <name>ДанныеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные файла</value>
+    </synonym>
+    <attributes uuid="1326d5a6-762c-4b4d-90eb-94e697ca03ed">
+      <name>Название</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8b6f0345-10a1-4125-a0fe-a38657b30059">
+      <name>ИмеющаясяКнига</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имеющаяся книга</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Книги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="837312f8-0ab7-4b30-9805-f1e1fa8c033f">
+      <name>Авторы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Авторы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="57687290-a5cb-4010-b2a8-95cf9366bbfe">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1e9244dd-dca7-4caf-a3e1-bb2f91ddeb8a">
+      <name>ИмеющеесяОписание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имеющееся описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ac2da896-b539-43cc-9f1c-4aed9c5362ac">
+      <name>КодISBN</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код ISBN</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>17</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3a342078-5ba7-4140-aea9-e78db3ecc14f">
+      <name>Жанр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Жанр</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="af0700de-986f-4f94-871a-1a55439144b2">
+      <name>Издательство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Издательство</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="13db9675-1b3d-4302-8fe8-183e070221e7">
+      <name>ГодВыпуска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Год выпуска</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9366a76c-d1bf-4991-9151-6e39c1f79af4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
