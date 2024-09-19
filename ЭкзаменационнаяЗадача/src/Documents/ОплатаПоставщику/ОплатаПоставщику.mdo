@@ -40,6 +40,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -65,10 +66,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="3f8747db-3098-4aea-bbf9-d1b55643fcce">
-    <name>Магазин</name>
+    <name>Склад</name>
     <synonym>
       <key>ru</key>
-      <value>Магазин</value>
+      <value>Склад</value>
     </synonym>
     <type>
       <types>CatalogRef.Магазины</types>
@@ -115,7 +116,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="440d6212-8354-4e02-b581-732972711240">
+  <attributes uuid="54d577b0-c019-469c-96e1-87f4cf0f45e5">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1b8c36f2-e4dc-4e3b-a57e-cad41edbad34">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -129,10 +145,10 @@
       <objectType typeId="53a3a5c5-3bf7-4d5a-9270-b7116a3ee601" valueTypeId="e1bc4e54-b7ef-4f6d-bbb2-b2082c6a4bf0"/>
       <rowType typeId="679cae00-06e2-4baa-9434-88c800bd109a" valueTypeId="6381e344-224a-40ae-a547-569f7adc5a37"/>
     </producedTypes>
-    <name>СписокПоступившихКниг</name>
+    <name>СписокКниг</name>
     <synonym>
       <key>ru</key>
-      <value>Список поступивших книг</value>
+      <value>Список книг</value>
     </synonym>
     <attributes uuid="a2c48f99-d347-42d0-8f36-a97f19f46b40">
       <name>Книга</name>
@@ -166,10 +182,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="2ec69fff-1ba6-4a16-a853-4cee6ad67e32">
-      <name>Цена</name>
+      <name>ЦенаПоставщика</name>
       <synonym>
         <key>ru</key>
-        <value>Цена</value>
+        <value>Цена поставщика</value>
       </synonym>
       <type>
         <types>Number</types>
