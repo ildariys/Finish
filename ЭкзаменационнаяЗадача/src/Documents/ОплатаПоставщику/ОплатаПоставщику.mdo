@@ -41,6 +41,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3113210c-217d-4739-921c-b45c6e585fbc">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="92c9ac7e-8a68-415f-9a1b-1308fe6b10fc">
     <producedTypes>
       <objectType typeId="53a3a5c5-3bf7-4d5a-9270-b7116a3ee601" valueTypeId="e1bc4e54-b7ef-4f6d-bbb2-b2082c6a4bf0"/>

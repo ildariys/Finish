@@ -34,6 +34,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.ПолучениеДанныхТекущегоСеансаСервер</commonModules>
+  <constants>Constant.НаценкаВПроцентах</constants>
   <catalogs>Catalog.Книги</catalogs>
   <catalogs>Catalog.Авторы</catalogs>
   <catalogs>Catalog.Жанры</catalogs>
@@ -41,6 +46,7 @@
   <catalogs>Catalog.Магазины</catalogs>
   <catalogs>Catalog.Контрагент</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ПоступлениеКниг</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПеремещениеКниг</documents>

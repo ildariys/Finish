@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0483d251-c25d-40be-af6e-4ae71679940c">
+  <producedTypes>
+    <managerType typeId="12bd6178-2568-4b59-86b0-104a59828bfd" valueTypeId="4089d6fd-7f17-4989-a20b-6dde9aace778"/>
+    <valueManagerType typeId="30b41c77-1f14-4f96-a377-847db6595044" valueTypeId="937809c5-4420-4baa-a75c-29c608eb8a25"/>
+    <valueKeyType typeId="12a5710f-168d-446a-9d7a-c1c212caceb2" valueTypeId="7cfea5d5-2282-4270-aa92-f7297c705031"/>
+  </producedTypes>
+  <name>НаценкаВПроцентах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наценка в процентах</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
