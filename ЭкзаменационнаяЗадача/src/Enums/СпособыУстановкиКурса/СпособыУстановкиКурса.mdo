@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbad9026-6d4c-4aac-873f-327eb772f1d5">
+  <producedTypes>
+    <refType typeId="463dba13-cee6-4517-b283-4d9a09557bc4" valueTypeId="9964fbbb-17c0-4bb7-a607-d8057013a7ac"/>
+    <listType typeId="8fb965d6-e254-452a-bb22-79a142f0f4f9" valueTypeId="0c1fc319-4232-4a06-a79b-7b668e26559f"/>
+    <managerType typeId="185e3ca5-ee79-4a2a-915b-9b78950381c6" valueTypeId="578854aa-20a1-4668-b34a-ea91b456a00c"/>
+  </producedTypes>
+  <name>СпособыУстановкиКурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы установки курса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="728dbafe-ee04-4cc7-90cc-be2b062640ef">
+    <name>ЗагружаетсяИзИнтернета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружается из интернета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c31acd5c-73aa-4b3c-9260-59958e26f8c1">
+    <name>РучнойВвод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной ввод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

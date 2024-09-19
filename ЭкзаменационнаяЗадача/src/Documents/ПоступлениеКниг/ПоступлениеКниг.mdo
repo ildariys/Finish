@@ -94,6 +94,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="54c0ff65-4c1f-4921-8545-7ba317c8f4e2">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a530c39-57d4-4185-99b8-4aa894902553">
+    <name>ТекущийКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="293dc00c-78a7-40c6-b7cc-bee706610309">
     <name>ФормаДокумента</name>
     <synonym>
@@ -152,7 +188,7 @@
       <name>ЦенаПоставщика</name>
       <synonym>
         <key>ru</key>
-        <value>Цена поставщика</value>
+        <value>Цена поставщика в валюте</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -172,7 +208,7 @@
       <name>РозничнаяЦена</name>
       <synonym>
         <key>ru</key>
-        <value>Розничная цена</value>
+        <value>Розничная цена в валюте</value>
       </synonym>
       <type>
         <types>Number</types>

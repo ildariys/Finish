@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccbac4dc-fbf5-4bbd-9474-30fa0167eef3">
+  <producedTypes>
+    <selectionType typeId="f3035b01-3854-44e5-8c6a-e03d3ca31f64" valueTypeId="a691f783-d6d7-4e9b-98f2-8290a1361b0e"/>
+    <listType typeId="20522746-20c5-4c4e-8555-d559c1553320" valueTypeId="a064fc2f-97f3-4c0f-b0ea-6069b49474cb"/>
+    <managerType typeId="e5b227af-fc74-4d07-8fc1-6d05f0536f98" valueTypeId="7d1ef61d-9328-480d-bec1-129b107c9f7c"/>
+    <recordSetType typeId="5c970f5a-edbf-4fb6-a817-48001347c8ca" valueTypeId="e5ada6c5-6249-44b9-b362-1a5c181bb854"/>
+    <recordKeyType typeId="ec851474-a8e0-4260-a21c-483379bd5dc3" valueTypeId="af61da9b-bf29-4084-858e-5db78640cfd1"/>
+    <recordType typeId="b62e71fe-9d32-427d-bd77-de701411e9df" valueTypeId="26555f1f-eeae-497d-b4d6-3e356e9c83cc"/>
+  </producedTypes>
+  <name>ДенежныеСредстваСети</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства сети</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="10674afd-8e86-46f2-bb61-a51d815111dd">
+    <name>ДенежныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Денежные средства</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0bee59a7-564e-4fb3-8ab5-b341e2e3904c">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

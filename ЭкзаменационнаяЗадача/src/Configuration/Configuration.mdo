@@ -38,6 +38,9 @@
   <roles>Role.Администратор</roles>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.ПолучениеДанныхТекущегоСеансаСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <wsReferences>WSReference.cbrDailyInfo</wsReferences>
+  <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалютРФ</scheduledJobs>
   <constants>Constant.НаценкаВПроцентах</constants>
   <catalogs>Catalog.Книги</catalogs>
   <catalogs>Catalog.Авторы</catalogs>
@@ -47,14 +50,19 @@
   <catalogs>Catalog.Контрагент</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <documents>Document.ПоступлениеКниг</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПеремещениеКниг</documents>
   <documents>Document.ПродажаКниг</documents>
+  <enums>Enum.СпособыУстановкиКурса</enums>
   <dataProcessors>DataProcessor.ИмпортСпискаКниг</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКурсовВалютCBR</dataProcessors>
   <informationRegisters>InformationRegister.ПрайсЛист</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетПоступления</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.НаличиеКнигНаСкладах</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Выручка</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДенежныеСредстваСети</accumulationRegisters>
 </mdclass:Configuration>

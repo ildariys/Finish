@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7ad19d5-f737-4ed1-a024-8133b1f6be10">
+  <producedTypes>
+    <managerType typeId="afc9c197-5d2e-4ba9-88d9-83dd0c6ac0de" valueTypeId="cd168bd5-8c34-4aec-bae0-200f8935d36a"/>
+  </producedTypes>
+  <name>cbrDailyInfo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cbr daily info</value>
+  </synonym>
+  <locationURL>https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx?wsdl</locationURL>
+</mdclass:WSReference>
