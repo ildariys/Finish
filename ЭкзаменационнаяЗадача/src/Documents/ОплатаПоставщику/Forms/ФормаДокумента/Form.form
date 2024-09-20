@@ -640,31 +640,31 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>СписокКниг</name>
-    <id>53</id>
+    <name>ДокументыПоступления</name>
+    <id>95</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СписокКниг</segments>
+      <segments>Объект.ДокументыПоступления</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>СписокКнигНомерСтроки</name>
-      <id>66</id>
+      <name>ДокументыПоступленияНомерСтроки</name>
+      <id>108</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СписокКниг.LineNumber</segments>
+        <segments>Объект.ДокументыПоступления.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокКнигНомерСтрокиРасширеннаяПодсказка</name>
-        <id>68</id>
+        <name>ДокументыПоступленияНомерСтрокиРасширеннаяПодсказка</name>
+        <id>110</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -678,8 +678,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокКнигНомерСтрокиКонтекстноеМеню</name>
-        <id>67</id>
+        <name>ДокументыПоступленияНомерСтрокиКонтекстноеМеню</name>
+        <id>109</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -702,23 +702,23 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>СписокКнигКнига</name>
-      <id>69</id>
+      <name>ДокументыПоступленияДокумент</name>
+      <id>111</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СписокКниг.Книга</segments>
+        <segments>Объект.ДокументыПоступления.Документ</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>СписокКнигКнигаПриИзменении</name>
+        <name>ДокументыПоступленияДокументПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>СписокКнигКнигаРасширеннаяПодсказка</name>
-        <id>71</id>
+        <name>ДокументыПоступленияДокументРасширеннаяПодсказка</name>
+        <id>113</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -732,8 +732,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокКнигКнигаКонтекстноеМеню</name>
-        <id>70</id>
+        <name>ДокументыПоступленияДокументКонтекстноеМеню</name>
+        <id>112</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -756,23 +756,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>СписокКнигКоличество</name>
-      <id>72</id>
+      <name>ДокументыПоступленияСумма</name>
+      <id>114</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СписокКниг.Количество</segments>
+        <segments>Объект.ДокументыПоступления.Сумма</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>СписокКнигКоличествоПриИзменении</name>
-      </handlers>
       <extendedTooltip>
-        <name>СписокКнигКоличествоРасширеннаяПодсказка</name>
-        <id>74</id>
+        <name>ДокументыПоступленияСуммаРасширеннаяПодсказка</name>
+        <id>116</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -786,8 +782,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокКнигКоличествоКонтекстноеМеню</name>
-        <id>73</id>
+        <name>ДокументыПоступленияСуммаКонтекстноеМеню</name>
+        <id>115</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -796,111 +792,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>СписокКнигЦенаПоставщика</name>
-      <id>75</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СписокКниг.ЦенаПоставщика</segments>
-      </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>СписокКнигЦенаПоставщикаПриИзменении</name>
-      </handlers>
-      <extendedTooltip>
-        <name>СписокКнигЦенаПоставщикаРасширеннаяПодсказка</name>
-        <id>77</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СписокКнигЦенаПоставщикаКонтекстноеМеню</name>
-        <id>76</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>СписокКнигСумма</name>
-      <id>78</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СписокКниг.Сумма</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>СписокКнигСуммаРасширеннаяПодсказка</name>
-        <id>80</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СписокКнигСуммаКонтекстноеМеню</name>
-        <id>79</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <readOnly>true</readOnly>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -915,8 +806,8 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>СписокКнигКоманднаяПанель</name>
-      <id>54</id>
+      <name>ДокументыПоступленияКоманднаяПанель</name>
+      <id>96</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -931,11 +822,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокКнигСтрокаПоиска</name>
-      <id>57</id>
+      <name>ДокументыПоступленияСтрокаПоиска</name>
+      <id>99</id>
       <extendedTooltip>
-        <name>СписокКнигСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>59</id>
+        <name>ДокументыПоступленияСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>101</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -949,8 +840,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокКнигСтрокаПоискаКонтекстноеМеню</name>
-        <id>58</id>
+        <name>ДокументыПоступленияСтрокаПоискаКонтекстноеМеню</name>
+        <id>100</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -958,7 +849,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокКнигСтрокаПоиска</source>
+      <source>ДокументыПоступленияСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -969,11 +860,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокКнигСостояниеПросмотра</name>
-      <id>63</id>
+      <name>ДокументыПоступленияСостояниеПросмотра</name>
+      <id>105</id>
       <extendedTooltip>
-        <name>СписокКнигСостояниеПросмотраРасширеннаяПодсказка</name>
-        <id>65</id>
+        <name>ДокументыПоступленияСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>107</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -987,8 +878,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокКнигСостояниеПросмотраКонтекстноеМеню</name>
-        <id>64</id>
+        <name>ДокументыПоступленияСостояниеПросмотраКонтекстноеМеню</name>
+        <id>106</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -997,7 +888,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокКнигСостояниеПросмотра</source>
+      <source>ДокументыПоступленияСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1008,11 +899,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокКнигУправлениеПоиском</name>
-      <id>60</id>
+      <name>ДокументыПоступленияУправлениеПоиском</name>
+      <id>102</id>
       <extendedTooltip>
-        <name>СписокКнигУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>62</id>
+        <name>ДокументыПоступленияУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>104</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1026,8 +917,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокКнигУправлениеПоискомКонтекстноеМеню</name>
-        <id>61</id>
+        <name>ДокументыПоступленияУправлениеПоискомКонтекстноеМеню</name>
+        <id>103</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1036,14 +927,14 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СписокКнигУправлениеПоиском</source>
+      <source>ДокументыПоступленияУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокКнигРасширеннаяПодсказка</name>
-      <id>56</id>
+      <name>ДокументыПоступленияРасширеннаяПодсказка</name>
+      <id>98</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1057,8 +948,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СписокКнигКонтекстноеМеню</name>
-      <id>55</id>
+      <name>ДокументыПоступленияКонтекстноеМеню</name>
+      <id>97</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
