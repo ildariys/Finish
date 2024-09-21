@@ -28,6 +28,15 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4e00fcae-25b2-477b-ab10-a0d5ed84f2f4">
+      <name>Администратор</name>
+      <description>Администратор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="7cff1809-d68e-484e-aff3-01dd93c3c783">
