@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ac61d5b-1e8e-48bf-99c2-852ab61e371f">
+  <name>ТекущийМагазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий магазин</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Магазины</types>
+  </type>
+</mdclass:SessionParameter>

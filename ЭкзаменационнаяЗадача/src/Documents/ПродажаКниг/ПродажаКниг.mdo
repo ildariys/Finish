@@ -23,7 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <registerRecords>AccumulationRegister.НаличиеКнигНаСкладах</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиНомеклатуры</registerRecords>
+  <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
   <registerRecords>AccumulationRegister.Выручка</registerRecords>
   <registerRecords>AccumulationRegister.ДенежныеСредстваСети</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -50,7 +51,7 @@
       <value>Оператор</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

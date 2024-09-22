@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ee4458f-47c2-4936-b8e5-964eb5bbf2eb">
+  <producedTypes>
+    <selectionType typeId="d9c3a42c-59dd-4706-bc3c-e799f58ba842" valueTypeId="cbd64d3e-1ebb-4998-9b45-675d57e17c90"/>
+    <listType typeId="0ff59148-6b32-4b24-ade9-6ae3ee1edbc8" valueTypeId="6da737fc-30ee-4f2a-8c56-4a25fdb431f4"/>
+    <managerType typeId="5391c04a-c09c-496a-8422-8915272d97e4" valueTypeId="5ea917c9-3704-42a0-b90b-2e66dc20de53"/>
+    <recordSetType typeId="beda940b-e140-4d37-9c8f-71ee4c04be1c" valueTypeId="91d3b88a-5f3d-4a21-910e-30804672e7bb"/>
+    <recordKeyType typeId="1c46451f-d096-4c99-b916-83ef67d00706" valueTypeId="9b1c129e-5f64-452f-82f8-c9eecad76f72"/>
+    <recordType typeId="671fd3f5-1cdf-4a61-91d2-19e6fd65d55b" valueTypeId="f158bb54-9c91-4740-b84e-5ca948d7cdac"/>
+  </producedTypes>
+  <name>БронированиеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="15426817-b192-47df-a43d-a042a70a57b1">
+    <name>КоличествоЗабронированного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество забронированного</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7e9d977d-0d68-4d68-8872-10af8330f47a">
+    <name>Книга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Книги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b3b93b95-9cf2-45e6-9876-df4a0fd99d58">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

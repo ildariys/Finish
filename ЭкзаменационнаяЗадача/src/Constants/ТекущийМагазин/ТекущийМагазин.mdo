@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddb8b880-11cf-48f3-bf14-38e02dfab280">
+  <producedTypes>
+    <managerType typeId="2aaeac6c-46d3-48c3-8efc-3e016fca5b4b" valueTypeId="b6b66c84-1170-4cae-8f22-9f7b0c644636"/>
+    <valueManagerType typeId="4a444cd5-5839-4fda-8896-e9ebbdfc0d44" valueTypeId="54de2fab-24ba-41f3-92c4-1aaadc0baaff"/>
+    <valueKeyType typeId="b128dd2f-1a1b-47f0-9380-3dbdb0afa24c" valueTypeId="520ca9a6-a396-4e51-aee3-ae76bd6b19ba"/>
+  </producedTypes>
+  <name>ТекущийМагазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий магазин</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Магазины</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

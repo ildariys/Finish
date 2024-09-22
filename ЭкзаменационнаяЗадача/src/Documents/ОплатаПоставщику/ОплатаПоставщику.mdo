@@ -15,7 +15,6 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОплатаПоставщику.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <basedOn>Document.ПоступлениеКниг</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -26,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ОплатаПоставщику.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccumulationRegister.ОплаченныеПоступления</registerRecords>
   <registerRecords>AccumulationRegister.ДенежныеСредстваСети</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -123,7 +123,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

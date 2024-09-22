@@ -64,6 +64,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Date</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ДатаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
         <id>6</id>
@@ -285,6 +289,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Склад</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>МагазинПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>МагазинРасширеннаяПодсказка</name>
       <id>15</id>
@@ -808,14 +816,47 @@
     <autoCommandBar>
       <name>ДокументыПоступленияКоманднаяПанель</name>
       <id>96</id>
+      <items xsi:type="form:Button">
+        <name>ДокументыПоступленияДобавитьДокументыПрихода</name>
+        <id>117</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДокументыПоступленияДобавитьДокументыПриходаРасширеннаяПодсказка</name>
+          <id>118</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ДобавитьДокументыПрихода</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
-      <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>OnChange</event>
+      <name>ДокументыПоступленияПриИзменении</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -989,6 +1030,10 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
+    <event>ChoiceProcessing</event>
+    <name>ОбработкаВыбора</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -1038,6 +1083,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>ДобавитьДокументыПрихода</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить документы прихода</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьДокументыПрихода</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

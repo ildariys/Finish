@@ -8,10 +8,10 @@
     <recordKeyType typeId="a21d1f6c-0062-492c-ba02-fba4c1490f02" valueTypeId="1c7e2933-98b1-4131-81fa-92e1b0c0d937"/>
     <recordType typeId="15f05bcd-186f-4041-b0d6-51dc7fbaeb36" valueTypeId="5ff30c6a-02d0-4a43-afaf-af83e99ac47e"/>
   </producedTypes>
-  <name>НаличиеКнигНаСкладах</name>
+  <name>ОстаткиНомеклатуры</name>
   <synonym>
     <key>ru</key>
-    <value>Наличие книг на складах</value>
+    <value>Остатки номеклатуры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>

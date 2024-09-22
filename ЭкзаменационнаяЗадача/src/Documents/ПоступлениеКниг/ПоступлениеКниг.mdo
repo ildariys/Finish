@@ -24,10 +24,10 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПоступлениеКниг.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.НаличиеКнигНаСкладах</registerRecords>
+  <defaultChoiceForm>Document.ПоступлениеКниг.Form.ФормаВыбораНеОплаченныхДокументов</defaultChoiceForm>
+  <registerRecords>AccumulationRegister.ОстаткиНомеклатуры</registerRecords>
   <registerRecords>AccumulationRegister.УчетПоступления</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
-  <registerRecords>InformationRegister.ПрайсЛист</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f3059b8e-3c16-4345-95e9-92c310789abc">
@@ -85,7 +85,7 @@
       <value>Приемщик</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -158,6 +158,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="d4e84a15-c2fa-4872-9886-8ec8dca30332">
+    <name>ФормаВыбораНеОплаченныхДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора не оплаченных документов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="e0c5866f-69fd-4869-a155-3ff1fb519cc7">
     <producedTypes>
       <objectType typeId="e3819be8-feaa-42d6-b736-15ada5e0fe79" valueTypeId="5b8f5ca3-f234-417d-81c2-c7d553a2a573"/>
@@ -204,30 +213,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="09d8d0be-73a7-4499-b517-2491aae4a5a5">
-      <name>ЦенаПоставщика</name>
+      <name>Цена</name>
       <synonym>
         <key>ru</key>
         <value>Цена поставщика в валюте</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>2</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="e7ba5395-2858-438e-9c5a-22289cfc4dab">
-      <name>РозничнаяЦена</name>
-      <synonym>
-        <key>ru</key>
-        <value>Розничная цена в валюте</value>
       </synonym>
       <type>
         <types>Number</types>

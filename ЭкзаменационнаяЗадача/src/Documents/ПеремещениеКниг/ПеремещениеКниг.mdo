@@ -23,7 +23,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <registerRecords>AccumulationRegister.НаличиеКнигНаСкладах</registerRecords>
+  <defaultObjectForm>Document.ПеремещениеКниг.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиНомеклатуры</registerRecords>
+  <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="aa983c18-2b22-4376-a8b7-4316af6061b1">
@@ -56,6 +58,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="82c1d94d-7a29-4478-9167-98fe442cdf21">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0360cfdb-a503-4ddc-b595-b6f2f38556e7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92a9d5dd-50a2-4c05-8c32-f567aac1824d">
+    <name>ФормаВыбораДоступныхКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора доступных книг</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="568b096a-88d6-452b-9ebc-102556800a3a">
     <producedTypes>
       <objectType typeId="050b723e-d8f1-406c-be61-85173c5722eb" valueTypeId="66ea64f3-43f3-4923-9891-54a710577152"/>
@@ -98,4 +133,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <commands uuid="688e5d07-2c65-4bfb-baa2-4a870d87afd5">
+    <name>Забронировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПеремещениеКниг</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

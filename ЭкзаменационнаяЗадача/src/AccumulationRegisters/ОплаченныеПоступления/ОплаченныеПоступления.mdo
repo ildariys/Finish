@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7cd2161-575f-4c1a-b72d-8e9c2ae2f44c">
+  <producedTypes>
+    <selectionType typeId="8bafb4f5-a8ac-4d82-90c2-51368e0b0a20" valueTypeId="c7810d11-8e1b-4602-8940-0cec636f8fa4"/>
+    <listType typeId="c8f5c56f-f584-43b9-9dd6-6c71d2ef74dd" valueTypeId="9064e287-f4cc-4d2b-a246-c85e94b53115"/>
+    <managerType typeId="c25d14d3-200b-46d6-b037-6d7493eecb88" valueTypeId="4e9da487-023a-478f-be7c-2069a00860bf"/>
+    <recordSetType typeId="c87b5b01-174f-4705-b9f0-0ad051ad3a95" valueTypeId="876040c1-826b-48ad-9b66-d1caa00984ad"/>
+    <recordKeyType typeId="7838aa1e-6515-4324-817c-d4b3e3b841b6" valueTypeId="befb4ca6-706b-4826-a9f1-9d72b4b7a84f"/>
+    <recordType typeId="a1e41f37-4783-4888-af47-c011b1247bbd" valueTypeId="65795dc6-675f-4fa1-a7ab-2ac026f05b01"/>
+  </producedTypes>
+  <name>ОплаченныеПоступления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплаченные поступления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="db7b4ca2-9c68-47c3-bc78-33c8af7b760a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="72bceefc-1b44-4cd9-9e86-791958cc5d57">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПоступлениеКниг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
