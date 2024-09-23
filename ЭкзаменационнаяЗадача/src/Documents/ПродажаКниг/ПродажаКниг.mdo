@@ -175,4 +175,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <commands uuid="3f9d988b-0a3a-4f72-af9d-8d369bc13bdf">
+    <name>Забронировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Забронировать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПродажаКниг</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
