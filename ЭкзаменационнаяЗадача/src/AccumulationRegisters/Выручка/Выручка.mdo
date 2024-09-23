@@ -54,7 +54,7 @@
       <value>Оператор</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

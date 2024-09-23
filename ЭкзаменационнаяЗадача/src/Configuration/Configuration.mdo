@@ -59,6 +59,10 @@
   <documents>Document.ПеремещениеКниг</documents>
   <documents>Document.ПродажаКниг</documents>
   <enums>Enum.СпособыУстановкиКурса</enums>
+  <reports>Report.ОстаткиКниг</reports>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ВзаиморасчетыСПоставщиками</reports>
+  <reports>Report.ВедомостьПоДвижениюКниг</reports>
   <dataProcessors>DataProcessor.ИмпортСпискаКниг</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаКурсовВалютCBR</dataProcessors>
   <informationRegisters>InformationRegister.ПрайсЛист</informationRegisters>

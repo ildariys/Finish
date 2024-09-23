@@ -16,6 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПрайсЛист.Form.ФормаЗаписи</defaultRecordForm>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -35,26 +36,6 @@
     <key>ru</key>
     <value>Цены книг</value>
   </extendedListPresentation>
-  <resources uuid="4ac214d7-e14c-4d2e-8a93-8c1b7a0fb5a2">
-    <name>ЗакупочнаяЦена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Закупочная цена</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <resources uuid="0f930578-d569-45c3-a9b5-75763d130ddb">
     <name>РозничнаяЦена</name>
     <synonym>
@@ -75,6 +56,61 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="4e57c0d7-533b-4387-b523-86657437185f">
+    <name>СредняяЗакупочнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя закупочная цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="61bf87ea-ecd3-4959-bd57-b6ff796adc69">
+    <name>ПроцентНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент наценки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="5a5ad6a2-8a11-4981-a185-1a36104aeb6e">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="63bcc42d-1ce4-4c89-8d4f-357c689fbf16">
     <name>Книга</name>
     <synonym>
@@ -94,14 +130,14 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="5c8f6644-2c68-4a47-b693-8c975f7b4975">
-    <name>Поставщик</name>
+  <dimensions uuid="94c9d5d3-0ab6-482b-ae62-d1a6876d16bb">
+    <name>Склад</name>
     <synonym>
       <key>ru</key>
-      <value>Поставщик</value>
+      <value>Склад</value>
     </synonym>
     <type>
-      <types>CatalogRef.Контрагент</types>
+      <types>CatalogRef.Магазины</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -110,4 +146,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="14c5529c-ebd2-4080-b683-c2445e2f07b2">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
