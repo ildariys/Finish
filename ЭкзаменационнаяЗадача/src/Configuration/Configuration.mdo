@@ -54,6 +54,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
   <documents>Document.ПоступлениеКниг</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПеремещениеКниг</documents>
@@ -63,6 +64,7 @@
   <reports>Report.Продажи</reports>
   <reports>Report.ВзаиморасчетыСПоставщиками</reports>
   <reports>Report.ВедомостьПоДвижениюКниг</reports>
+  <reports>Report.ПрайсЛист</reports>
   <dataProcessors>DataProcessor.ИмпортСпискаКниг</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаКурсовВалютCBR</dataProcessors>
   <informationRegisters>InformationRegister.ПрайсЛист</informationRegisters>

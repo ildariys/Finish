@@ -140,6 +140,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="47f2b103-44f4-4621-b790-20881e4fcf06">
+    <name>ФормаВыбораНеОплаченныхДокументовПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора не оплаченных документов поступления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="d17c2e8b-4c56-4df2-8192-76e458f60b61">
     <producedTypes>
       <objectType typeId="a15f2619-f632-4ae2-81a3-a1c19abaea09" valueTypeId="fc2f332d-1df5-4c6b-b6a4-f022d77153a1"/>

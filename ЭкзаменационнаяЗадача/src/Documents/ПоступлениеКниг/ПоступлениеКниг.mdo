@@ -24,7 +24,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПоступлениеКниг.Form.ФормаДокумента</defaultObjectForm>
-  <defaultChoiceForm>Document.ПоступлениеКниг.Form.ФормаВыбораНеОплаченныхДокументов</defaultChoiceForm>
   <registerRecords>AccumulationRegister.ОстаткиНомеклатуры</registerRecords>
   <registerRecords>AccumulationRegister.УчетПоступления</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
@@ -154,15 +153,6 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="d4e84a15-c2fa-4872-9886-8ec8dca30332">
-    <name>ФормаВыбораНеОплаченныхДокументов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора не оплаченных документов</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -238,6 +238,7 @@
     </contextMenu>
     <type>InputField</type>
     <readOnly>true</readOnly>
+    <warningOnEditRepresentation>Show</warningOnEditRepresentation>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
