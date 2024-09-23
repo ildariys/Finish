@@ -102,10 +102,10 @@
       <value>Список книг</value>
     </synonym>
     <attributes uuid="29f34eca-1a8d-47aa-b144-03cb1d999364">
-      <name>НазваниеКниги</name>
+      <name>Книга</name>
       <synonym>
         <key>ru</key>
-        <value>Название книги</value>
+        <value>Книга</value>
       </synonym>
       <type>
         <types>CatalogRef.Книги</types>
