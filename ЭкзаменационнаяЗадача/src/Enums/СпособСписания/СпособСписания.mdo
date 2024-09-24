@@ -5,10 +5,10 @@
     <listType typeId="3f483535-f515-406f-a361-6dfb81700f9e" valueTypeId="f0ee2d51-a81b-4025-9e7a-00325fdf8611"/>
     <managerType typeId="577226ed-442a-4b22-aaa5-479f20f4e3c6" valueTypeId="ce6ad3a6-c52a-4b0f-a8f4-ad5c7107dd49"/>
   </producedTypes>
-  <name>МетодыРасчетаСебестомости</name>
+  <name>СпособСписания</name>
   <synonym>
     <key>ru</key>
-    <value>Методы расчета себестомости</value>
+    <value>Способ списания</value>
   </synonym>
   <standardAttributes>
     <dataHistory>Use</dataHistory>

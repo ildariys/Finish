@@ -481,10 +481,10 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <excludedCommands>Create</excludedCommands>
-  <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Change</excludedCommands>
+  <excludedCommands>Copy</excludedCommands>
+  <excludedCommands>Create</excludedCommands>
+  <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Refresh</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

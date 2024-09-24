@@ -8,7 +8,6 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ae567ae2-9f02-4db4-ad5b-12f291aa7bb2"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7eb968c4-b1a4-4034-9266-35a886f72b15"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="39c03d85-dc8c-464d-8eac-119a9d91c585"/>
-  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -46,7 +45,6 @@
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалютРФ</scheduledJobs>
   <constants>Constant.НаценкаВПроцентах</constants>
   <constants>Constant.ТекущийМагазин</constants>
-  <constants>Constant.МетодРасчетаСебестоимости</constants>
   <catalogs>Catalog.Книги</catalogs>
   <catalogs>Catalog.Авторы</catalogs>
   <catalogs>Catalog.Жанры</catalogs>
@@ -62,7 +60,7 @@
   <documents>Document.ПеремещениеКниг</documents>
   <documents>Document.ПродажаКниг</documents>
   <enums>Enum.СпособыУстановкиКурса</enums>
-  <enums>Enum.МетодыРасчетаСебестомости</enums>
+  <enums>Enum.СпособСписания</enums>
   <reports>Report.ОстаткиКниг</reports>
   <reports>Report.Продажи</reports>
   <reports>Report.ВзаиморасчетыСПоставщиками</reports>
