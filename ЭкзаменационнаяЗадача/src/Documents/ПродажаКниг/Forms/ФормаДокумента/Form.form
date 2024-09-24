@@ -136,18 +136,15 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
+    <type>LabelField</type>
+    <readOnly>true</readOnly>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
+    <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -186,18 +183,15 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
+    <type>LabelField</type>
+    <readOnly>true</readOnly>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
+    <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -521,13 +515,42 @@
     <autoCommandBar>
       <name>СписокКнигКоманднаяПанель</name>
       <id>18</id>
+      <items xsi:type="form:Button">
+        <name>СписокКнигДобавитьКниги</name>
+        <id>44</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокКнигДобавитьКнигиРасширеннаяПодсказка</name>
+          <id>45</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ДобавитьКниги</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
-      <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
       <visible>true</visible>
@@ -705,6 +728,10 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
+    <event>ChoiceProcessing</event>
+    <name>ОбработкаВыбора</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -734,6 +761,23 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>ДобавитьКниги</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить книги</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьКниги</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

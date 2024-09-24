@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38fbae51-2ea8-4d18-a9bd-664789658baf">
+  <producedTypes>
+    <objectType typeId="b7fe5176-d223-45aa-b5d5-7a822efcc149" valueTypeId="df3b2fae-6cda-479d-a174-a12bef9ac836"/>
+    <managerType typeId="043b0376-e611-4629-aef2-2258c7d9fe91" valueTypeId="c7574a13-b5f7-4592-a200-479821414210"/>
+  </producedTypes>
+  <name>ЗабронированныеКниги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Забронированные книги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗабронированныеКниги.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1968068f-6e12-4d22-beb6-715355f481aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

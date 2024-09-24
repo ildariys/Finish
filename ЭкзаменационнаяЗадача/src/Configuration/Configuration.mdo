@@ -45,6 +45,7 @@
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалютРФ</scheduledJobs>
   <constants>Constant.НаценкаВПроцентах</constants>
   <constants>Constant.ТекущийМагазин</constants>
+  <constants>Constant.МетодРасчетаСебестоимости</constants>
   <catalogs>Catalog.Книги</catalogs>
   <catalogs>Catalog.Авторы</catalogs>
   <catalogs>Catalog.Жанры</catalogs>
@@ -60,11 +61,14 @@
   <documents>Document.ПеремещениеКниг</documents>
   <documents>Document.ПродажаКниг</documents>
   <enums>Enum.СпособыУстановкиКурса</enums>
+  <enums>Enum.МетодыРасчетаСебестомости</enums>
   <reports>Report.ОстаткиКниг</reports>
   <reports>Report.Продажи</reports>
   <reports>Report.ВзаиморасчетыСПоставщиками</reports>
   <reports>Report.ВедомостьПоДвижениюКниг</reports>
   <reports>Report.ПрайсЛист</reports>
+  <reports>Report.ЗабронированныеКниги</reports>
+  <reports>Report.АссортиментКниг</reports>
   <dataProcessors>DataProcessor.ИмпортСпискаКниг</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаКурсовВалютCBR</dataProcessors>
   <informationRegisters>InformationRegister.ПрайсЛист</informationRegisters>

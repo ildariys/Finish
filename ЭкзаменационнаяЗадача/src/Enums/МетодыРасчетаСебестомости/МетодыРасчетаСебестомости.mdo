@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5aa809fe-7066-42bf-9d9d-c43e6f2fe404">
+  <producedTypes>
+    <refType typeId="b615c087-a722-480e-9324-5e2a11794f03" valueTypeId="29dbd8cb-da6d-4f62-9d1c-71c74a1dc0b5"/>
+    <listType typeId="3f483535-f515-406f-a361-6dfb81700f9e" valueTypeId="f0ee2d51-a81b-4025-9e7a-00325fdf8611"/>
+    <managerType typeId="577226ed-442a-4b22-aaa5-479f20f4e3c6" valueTypeId="ce6ad3a6-c52a-4b0f-a8f4-ad5c7107dd49"/>
+  </producedTypes>
+  <name>МетодыРасчетаСебестомости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы расчета себестомости</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d5fc6427-21a8-4ce8-8e4c-f914269b4c15">
+    <name>ПоСредней</name>
+    <synonym>
+      <key>ru</key>
+      <value>По средней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9193de70-65bc-4a19-bb91-38e0f7fe6d61">
+    <name>FIFO</name>
+    <synonym>
+      <key>ru</key>
+      <value>FIFO</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c29a2319-46c5-4bc9-ad3b-c3e8748d37a6">
+    <name>LIFO</name>
+    <synonym>
+      <key>ru</key>
+      <value>LIFO</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

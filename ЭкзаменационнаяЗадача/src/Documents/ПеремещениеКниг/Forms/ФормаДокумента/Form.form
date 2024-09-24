@@ -203,6 +203,10 @@
   <items xsi:type="form:FormField">
     <name>Ответственный</name>
     <id>13</id>
+    <title>
+      <key>ru</key>
+      <value>Оператор</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -236,18 +240,15 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
+    <type>LabelField</type>
+    <readOnly>true</readOnly>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
+    <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <items xsi:type="form:Table">
