@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="828166d6-eb97-4d6a-9124-98787995dffc">
+  <producedTypes>
+    <selectionType typeId="7728ff9c-9db2-4fe3-948e-636fcd8c892b" valueTypeId="142a83e0-fce6-45f1-b0db-52e20fd4ace9"/>
+    <listType typeId="fabca20f-9ca3-402a-b325-0feb4d0cc04d" valueTypeId="dd610595-6115-4852-a0dc-8748791b6a0c"/>
+    <managerType typeId="27a62ea1-dce8-4cfe-98d0-514197c63386" valueTypeId="a0ecc3fd-a68e-4392-98bc-2e89dfa67f1a"/>
+    <recordSetType typeId="67642012-5417-4555-a534-fa674323c38d" valueTypeId="92a97e1e-a107-430e-8189-5ca412ff304b"/>
+    <recordKeyType typeId="888e4169-a0db-4c8c-9f5c-2fe37b71b467" valueTypeId="b14e8e5c-8c94-4c4a-a222-bcb6d9cfb846"/>
+    <recordType typeId="0982dfc9-317b-4814-a08f-cc8e77864eaf" valueTypeId="f2d27154-935a-4457-a8b7-343c88c1ab97"/>
+    <recordManagerType typeId="9638ebbc-b2ea-4526-bf4e-7b8982675f9b" valueTypeId="aecf95e6-1761-4496-a9d8-bd879fa3c989"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="db0981e1-ec97-475c-86c3-5699fb441a60">
+    <name>МетодРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыРасчетаСебестомости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

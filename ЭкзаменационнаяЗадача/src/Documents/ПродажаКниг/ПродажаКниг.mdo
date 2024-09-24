@@ -28,6 +28,7 @@
   <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
   <registerRecords>AccumulationRegister.Выручка</registerRecords>
   <registerRecords>AccumulationRegister.ДенежныеСредстваСети</registerRecords>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="741ac651-f3cb-4630-9b2c-82a14241d5b7">
