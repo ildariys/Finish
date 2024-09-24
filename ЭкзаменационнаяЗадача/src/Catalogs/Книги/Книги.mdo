@@ -226,6 +226,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c19637ba-ba54-499d-b2e2-05ac4bc6520f">
+    <name>ТекстОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст описания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4d75a881-8f38-47fd-82a0-0470aea41e0d">
     <name>ФормаСписка</name>
     <synonym>

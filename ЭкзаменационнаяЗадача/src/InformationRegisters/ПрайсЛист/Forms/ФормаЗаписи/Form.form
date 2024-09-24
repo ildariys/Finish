@@ -162,9 +162,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.СредняяЗакупочнаяЦена</segments>
-    </dataPath>
     <extendedTooltip>
       <name>СредняяЗакупочнаяЦенаРасширеннаяПодсказка</name>
       <id>21</id>
@@ -190,16 +187,11 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>LabelField</type>
     <readOnly>true</readOnly>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:LabelFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>Ответственный</name>

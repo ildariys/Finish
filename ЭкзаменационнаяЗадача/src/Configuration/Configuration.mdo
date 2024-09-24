@@ -73,6 +73,7 @@
   <dataProcessors>DataProcessor.ЗагрузкаКурсовВалютCBR</dataProcessors>
   <informationRegisters>InformationRegister.ПрайсЛист</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.Партии</informationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетПоступления</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНомеклатуры</accumulationRegisters>

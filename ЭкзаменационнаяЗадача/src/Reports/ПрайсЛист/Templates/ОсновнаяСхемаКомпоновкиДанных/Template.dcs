@@ -50,6 +50,10 @@
 			<dataPath>РозничнаяЦена</dataPath>
 			<field>РозничнаяЦена</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекстОписания</dataPath>
+			<field>ТекстОписания</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПрайсЛистСрезПоследних.Книга КАК Книга,
@@ -70,7 +74,8 @@
 	Книги.Издательство КАК Издательство,
 	Книги.ГодВыпуска КАК ГодВыпуска,
 	Книги.Картинка КАК Картинка,
-	ВТ_Цены.РозничнаяЦена КАК РозничнаяЦена
+	ВТ_Цены.РозничнаяЦена КАК РозничнаяЦена,
+	Книги.ТекстОписания КАК ТекстОписания
 ИЗ
 	ВТ_Цены КАК ВТ_Цены
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Книги КАК Книги
@@ -167,7 +172,7 @@
 					<dcsset:field>Наименование</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Описание</dcsset:field>
+					<dcsset:field>ТекстОписания</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>РозничнаяЦена</dcsset:field>

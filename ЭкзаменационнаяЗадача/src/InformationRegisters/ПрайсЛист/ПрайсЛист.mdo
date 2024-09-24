@@ -56,46 +56,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="4e57c0d7-533b-4387-b523-86657437185f">
-    <name>СредняяЗакупочнаяЦена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Средняя закупочная цена</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="61bf87ea-ecd3-4959-bd57-b6ff796adc69">
-    <name>ПроцентНаценки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Процент наценки</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>4</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <attributes uuid="5a5ad6a2-8a11-4981-a185-1a36104aeb6e">
     <name>Ответственный</name>
     <synonym>
