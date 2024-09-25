@@ -76,7 +76,7 @@
   <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетПоступления</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ОстаткиНомеклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Выручка</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДенежныеСредстваСети</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОплаченныеПоступления</accumulationRegisters>
