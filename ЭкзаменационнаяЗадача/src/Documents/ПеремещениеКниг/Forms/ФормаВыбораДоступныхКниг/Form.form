@@ -164,7 +164,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ОстатокКнигНаСкладе.РозничнаяЦена</segments>
+        <segments>ОстатокКнигНаСкладе.Цена</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОстатокКнигНаСкладеРозничнаяЦенаРасширеннаяПодсказка</name>
@@ -501,10 +501,10 @@
       </edit>
     </columns>
     <columns>
-      <name>РозничнаяЦена</name>
+      <name>Цена</name>
       <title>
         <key>ru</key>
-        <value>Розничная цена</value>
+        <value>Цена</value>
       </title>
       <id>7</id>
       <valueType>

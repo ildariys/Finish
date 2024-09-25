@@ -260,7 +260,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СписокПеремещаемыхКниг</segments>
+      <segments>Объект.СписокКниг</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
@@ -272,7 +272,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СписокПеремещаемыхКниг.LineNumber</segments>
+        <segments>Объект.СписокКниг.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокПеремещаемыхКнигНомерСтрокиРасширеннаяПодсказка</name>
@@ -318,7 +318,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СписокПеремещаемыхКниг.Книга</segments>
+        <segments>Объект.СписокКниг.Книга</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокПеремещаемыхКнигКнигаРасширеннаяПодсказка</name>
@@ -368,7 +368,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СписокПеремещаемыхКниг.Количество</segments>
+        <segments>Объект.СписокКниг.Количество</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокПеремещаемыхКнигКоличествоРасширеннаяПодсказка</name>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b63fb50-7ad2-4c1c-8f38-358ebe468b3e">
+  <producedTypes>
+    <objectType typeId="39d03eb1-d01f-4290-8a61-9fb3b088043d" valueTypeId="2a0d9847-bfcb-4ceb-8bd7-59b086b72374"/>
+    <managerType typeId="e8667872-6803-47ae-8057-d087e2f00468" valueTypeId="71195070-a5d5-4e85-a086-c250bff02dce"/>
+  </producedTypes>
+  <name>ПопулярностьКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Популярность книг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПопулярностьКниг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="12bd5ffa-d9c3-4da3-82a1-ca559ac2fc7f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПродажаКниг.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
   <registerRecords>AccumulationRegister.Выручка</registerRecords>

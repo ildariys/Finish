@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПеремещениеКниг.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <registerRecords>AccumulationRegister.БронированиеТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -99,10 +100,10 @@
       <objectType typeId="050b723e-d8f1-406c-be61-85173c5722eb" valueTypeId="66ea64f3-43f3-4923-9891-54a710577152"/>
       <rowType typeId="d116da8a-a0ec-4f7c-b0ad-beea24fadc8a" valueTypeId="0b3ad987-ae10-4630-9453-f7f36299307b"/>
     </producedTypes>
-    <name>СписокПеремещаемыхКниг</name>
+    <name>СписокКниг</name>
     <synonym>
       <key>ru</key>
-      <value>Список перемещаемых книг</value>
+      <value>Список книг</value>
     </synonym>
     <attributes uuid="e9879de2-9669-446e-a7d8-23c2c1bc525a">
       <name>Книга</name>

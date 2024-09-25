@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24c8e7c7-dc25-407c-aa43-77d6b813c761">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24c8e7c7-dc25-407c-aa43-77d6b813c761">
   <producedTypes>
     <objectType typeId="f4c2664d-9eb0-461b-9e46-8550d4b16282" valueTypeId="e2d175c3-978f-4015-8753-7536a1730dfb"/>
     <refType typeId="a254461a-c2a6-425d-8cb4-bdeafb0e095e" valueTypeId="4d693ebc-20dd-4d97-b3df-a00d3b5ab960"/>
@@ -29,6 +29,24 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4815915d-282f-4948-ab38-0440b72665b3">
+      <name>Магазин</name>
+      <description>Магазин</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="ada04b05-3608-4daf-9727-f91020cd3ee8">
+      <name>Склад</name>
+      <description>Склад</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>
