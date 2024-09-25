@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcccecf5-60c6-4db9-90cc-021a941e5841">
+  <name>Книги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Книги</picture>
+  </picture>
+  <content>Catalog.Книги</content>
+  <content>Catalog.Авторы</content>
+  <content>Catalog.Жанры</content>
+  <content>Catalog.Издательство</content>
+  <content>Report.ОстаткиКниг</content>
+  <content>Report.ПрайсЛист</content>
+  <content>Report.АссортиментКниг</content>
+  <content>Report.ПопулярностьКниг</content>
+  <content>DataProcessor.ИмпортСпискаКниг</content>
+  <content>CommonPicture.Книги</content>
+</mdclass:Subsystem>

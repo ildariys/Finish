@@ -6,23 +6,7 @@
 	<object>
 		<name>Catalog.Авторы</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -45,23 +29,7 @@
 	<object>
 		<name>Catalog.Издательство</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -84,23 +52,7 @@
 	<object>
 		<name>Catalog.Магазины</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -123,23 +75,7 @@
 	<object>
 		<name>Catalog.Книги</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -162,62 +98,14 @@
 	<object>
 		<name>Document.ПоступлениеКниг</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Валюты</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -240,23 +128,7 @@
 	<object>
 		<name>Catalog.Контрагент</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -279,23 +151,7 @@
 	<object>
 		<name>Catalog.Жанры</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -325,94 +181,18 @@
 			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>false</value>
-		</right>
 	</object>
 	<object>
 		<name>Document.ПродажаКниг</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Должности</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -442,62 +222,22 @@
 			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенНаКниги</name>
 		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 		<right>
 			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Configuration.Конфигурация</name>
-		<right>
-			<name>ExclusiveMode</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Сотрудники</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -520,23 +260,7 @@
 	<object>
 		<name>Catalog.Пользователи</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>false</value>
 		</right>
 		<right>

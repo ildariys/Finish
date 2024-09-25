@@ -4,6 +4,17 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>InformationRegister.ПрайсЛист.Resource.РозничнаяЦена</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.Партии</name>
 		<right>
 			<name>Read</name>
@@ -14,16 +25,52 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>TotalsControl</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -49,12 +96,35 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>InputByString</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют.Resource.Кратность</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -91,12 +161,57 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>InputByString</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.Dimension.Контрагент</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют.Dimension.Валюта</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.Resource.Цена</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -239,7 +354,19 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -253,21 +380,60 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
+			<value>false</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют.Attribute.Пользователь</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -279,6 +445,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Отчеты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -340,10 +513,6 @@
 		<name>Catalog.Валюты</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -447,7 +616,51 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ПрайсЛист.Attribute.Ответственный</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Сотрудники.Attribute.Отчество</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.Resource.Количество</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПрайсЛист.Dimension.Книга</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют.Resource.Курс</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -643,12 +856,35 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>InputByString</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.Dimension.Книга</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -679,21 +915,49 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УчетнаяПолитика.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
+			<value>false</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УчетнаяПолитика.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УчетнаяПолитика.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УчетнаяПолитика.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -727,12 +991,35 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>InputByString</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПрайсЛист.Dimension.Склад</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -869,6 +1156,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.Финансы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Сотрудники</name>
 		<right>
 			<name>Read</name>
@@ -986,6 +1280,35 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.УчетнаяПолитика.Resource.МетодРасчета</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Партии.Dimension.Партия</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Книги</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Пользователи</name>
 		<right>
 			<name>Read</name>
@@ -1097,21 +1420,49 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПрайсЛист.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
+			<value>false</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПрайсЛист.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПрайсЛист.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПрайсЛист.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>

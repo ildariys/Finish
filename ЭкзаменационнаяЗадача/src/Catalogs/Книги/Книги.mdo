@@ -227,10 +227,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c19637ba-ba54-499d-b2e2-05ac4bc6520f">
-    <name>ТекстОписания</name>
+    <name>ОписаниеКниги</name>
     <synonym>
       <key>ru</key>
-      <value>Текст описания</value>
+      <value>Описание книги</value>
     </synonym>
     <type>
       <types>String</types>

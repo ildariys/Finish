@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1019dd2-ff8e-4a4e-be3b-4e0fff2da728">
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Финансы</picture>
+  </picture>
+  <content>AccumulationRegister.Взаиморасчеты</content>
+  <content>AccumulationRegister.Выручка</content>
+  <content>AccumulationRegister.ДенежныеСредстваСети</content>
+  <content>AccumulationRegister.ОплаченныеПоступления</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>InformationRegister.ПрайсЛист</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>DataProcessor.ЗагрузкаКурсовВалютCBR</content>
+  <content>Report.ПрайсЛист</content>
+  <content>Report.ВзаиморасчетыСПоставщиками</content>
+  <content>Report.Продажи</content>
+  <content>Enum.СпособыУстановкиКурса</content>
+  <content>Enum.СпособСписания</content>
+  <content>Document.ПоступлениеКниг</content>
+  <content>Document.ОплатаПоставщику</content>
+  <content>Document.ПродажаКниг</content>
+  <content>Catalog.Валюты</content>
+  <content>Constant.НаценкаВПроцентах</content>
+  <content>WSReference.cbrDailyInfo</content>
+  <content>ScheduledJob.ЗагрузкаКурсовВалютРФ</content>
+  <content>Document.УстановкаЦенНаКниги</content>
+</mdclass:Subsystem>

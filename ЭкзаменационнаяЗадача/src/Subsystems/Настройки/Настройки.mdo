@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97dce33d-19b4-4864-8fd7-d6f178241b2a">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Настройки</picture>
+  </picture>
+  <content>CommonModule.ОбщегоНазначенияСервер</content>
+  <content>CommonModule.ПолучениеДанныхТекущегоСеансаСервер</content>
+  <content>CommonModule.РегламентныеЗаданияСервер</content>
+  <content>CommonModule.ОбработкаТабличныхЧастейКлиент</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>SessionParameter.ТекущийМагазин</content>
+  <content>Role.Администратор</content>
+  <content>Role.Оператор</content>
+  <content>Role.Руководитель</content>
+  <content>Constant.НаценкаВПроцентах</content>
+  <content>Catalog.Пользователи</content>
+</mdclass:Subsystem>

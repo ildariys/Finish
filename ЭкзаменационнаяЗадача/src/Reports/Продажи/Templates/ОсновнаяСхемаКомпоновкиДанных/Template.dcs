@@ -191,19 +191,29 @@
 					<dcsset:field>Оператор</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Среднийчек</dcsset:field>
+					<dcsset:field>СреднийЧек</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Сума</dcsset:field>
+					<dcsset:field>Сумма</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Магазин</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Оператор</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Today</v8:variant>
 					</dcscor:value>
 					<dcsset:userSettingID>194a67df-6884-46e3-ba8c-1d3588d720aa</dcsset:userSettingID>
 				</dcscor:item>
