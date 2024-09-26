@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99b282b2-fe98-412e-9fcd-f0a6e64c13d9">
+  <name>Док_Заказы_МО</name>
+  <server>true</server>
+</mdclass:CommonModule>
