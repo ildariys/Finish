@@ -15,6 +15,7 @@
     <numberQualifiers>
       <precision>10</precision>
       <scale>3</scale>
+      <nonNegative>true</nonNegative>
     </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>

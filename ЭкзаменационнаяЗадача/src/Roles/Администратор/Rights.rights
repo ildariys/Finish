@@ -174,10 +174,6 @@
 	<object>
 		<name>Document.ПеремещениеКниг</name>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
