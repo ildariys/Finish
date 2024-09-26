@@ -19,6 +19,12 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ДолгНачальныйОстаток</dataPath>
 			<field>ДолгНачальныйОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Долг Начальный остаток</v8:content>
+				</v8:item>
+			</title>
 			<role>
 				<dcscom:balance>true</dcscom:balance>
 				<dcscom:balanceGroupName>Долг</dcscom:balanceGroupName>
@@ -38,6 +44,12 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ДолгКонечныйОстаток</dataPath>
 			<field>ДолгКонечныйОстаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Долг Конечный остаток</v8:content>
+				</v8:item>
+			</title>
 			<role>
 				<dcscom:balance>true</dcscom:balance>
 				<dcscom:balanceGroupName>Долг</dcscom:balanceGroupName>
@@ -47,10 +59,22 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ДолгПриход</dataPath>
 			<field>ДолгПриход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Долг Приход</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ДолгРасход</dataPath>
 			<field>ДолгРасход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Долг Расход</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ

@@ -33,6 +33,12 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>КодISBN</dataPath>
 			<field>КодISBN</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код ISBN</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Жанр</dataPath>
@@ -41,6 +47,12 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ГодВыпуска</dataPath>
 			<field>ГодВыпуска</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Год выпуска</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Картинка</dataPath>
@@ -49,10 +61,22 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>РозничнаяЦена</dataPath>
 			<field>РозничнаяЦена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Розничная цена</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ОписаниеКниги</dataPath>
 			<field>ОписаниеКниги</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание книги</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
